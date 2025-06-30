@@ -3,8 +3,9 @@ This project explores simulated air quality data from different urban locations 
 The goal is to demonstrate SQL skills while raising awareness about urban pollution and its potential health impacts.
 
 ## Project Structure
-• raw_air_pollution_lagos.csv: Raw dataset with issues
-• cleaned_air_pollution_lagos.csv: Cleaned dataset (after SQLite)
-• cleaning_script.sql:  SQL queries used to clean the data
-• Analysis.ipynb: Jupyter Notebook with SQL analysis
-• README.md: You're here :)
+urban-air-pollution-lagos/
+├── raw_air_pollution_lagos.csv     # Raw dataset with issues
+├── cleaned_air_pollution_lagos.csv # Cleaned dataset (after SQLite)
+├── cleaning_script.sql             # SQL queries used to clean the data
+├── analysis.ipynb                  # Jupyter Notebook with SQL analysis
+└── README.md                       # You're here :)
