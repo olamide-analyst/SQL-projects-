@@ -1,6 +1,5 @@
 # Urban Air Pollution in Lagos – SQL Project
-This project explores simulated air quality data from different urban locations in Lagos, Nigeria. It covers the full data workflow — from cleaning in SQLite to analysis in Jupyter Notebook using ipython-sql.
-The goal is to demonstrate SQL skills while growing a portfolio focused on environmental data and the small, important stories it can help  uncover.
+This project looks at simulated air quality data from a few urban areas in Lagos, Nigeria. I used SQLite to clean the data and ran my analysis in Jupyter Notebook using ipython-sql. It’s part of my process of learning SQL while building a portfolio around environmental data — and exploring the quiet, important stories it can help reveal.
 
 ## Project Overview
 **Goal**: Clean and analyze air quality data to explore pollution trends in Lagos.
@@ -33,8 +32,11 @@ See: `cleaning_script.sql` and `cleaned_air_pollution_lagos.csv`
 ## Data Analysis (Jupyter + ipython-sql)
 Questions explored:
 * Which location had the highest average PM2.5?
-* Are hotter days more polluted?
-* Does wind speed impact air quality?
+* Which locations consistently stay below the WHO PM2.5 limit (15 µg/m³)?
+* What’s the average CO level across all locations?
+* Do higher temperatures tend to coincide with higher PM2.5 levels?
+* Rank all locations by average pollution level
+* which locations have the worst “overall pollution”?
 See: `analysis.ipynb`
 
 ## Why This Project Matters
