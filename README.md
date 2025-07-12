@@ -27,8 +27,8 @@ See: `cleaning_script.sql`
 Key steps:
 * Fixed inconsistent casing in `Location`
 * Handled missing `CO` values
-* Removed duplicate rows
-* Removed Outliers: pollutant with values too extreme (too high or too low) to be true.
+* Removed duplicate rows using `rowid`
+* Removed outliers in pollutant, temperature, and wind speed values
 
 Output file: `cleaned_air_pollution_lagos.csv`
 
@@ -43,7 +43,7 @@ Questions explored:
 See: `air_pollution_analysis.ipynb`
 
 ## Only SQL concepts used:
-* SELECT, GROUP BY, ORDER BY 
-* CASE statements
+* `SELECT`, `GROUP BY`, `ORDER BY` 
+* `CASE` statements
 * CTEs (Common Table Expressions)
-* DENSE RANK
+* `DENSE RANK` window function
