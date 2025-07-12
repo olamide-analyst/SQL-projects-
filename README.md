@@ -39,7 +39,8 @@ Questions explored:
 * What’s the average CO level across all locations?
 * Do higher temperatures correlate with higher PM2.5 levels?
 * Rank all locations by average pollution level
-* which locations have the worst “overall pollution”?
+* which locations have the worst overall pollution?
+
 See: `analysis.ipynb`
 
 ## Only SQL concepts used:
