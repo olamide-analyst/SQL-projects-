@@ -39,12 +39,11 @@ Questions explored:
 * What’s the average CO level across all locations?
 * Do higher temperatures correlate with higher PM2.5 levels?
 * Rank all locations by average pollution level
-* which locations have the worst overall pollution?
 
 See: `air_pollution_analysis.ipynb`
 
 ## Only SQL concepts used:
-* SELECT, WHERE, GROUP BY
+* SELECT, GROUP BY, ORDER BY 
 * CASE statements
 * CTEs (Common Table Expressions)
-* Temp tables
+* DENSE RANK
