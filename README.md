@@ -23,11 +23,13 @@ This data is fictional but modeled on realistic environmental behavior.
 
 ## Data Cleaning (SQLite)
 See: `cleaning_script.sql`
+
 Key steps:
 * Fixed inconsistent casing in `Location`
 * Handled missing `CO` values
 * Removed duplicate rows
-* Confirmed expected ranges for pollutants and weather
+* Confirmed expected ranges for pollutants and weather.
+
 Output file: `cleaned_air_pollution_lagos.csv`
 
 ## Data Analysis (Jupyter + ipython-sql)
