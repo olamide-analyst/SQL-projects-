@@ -13,7 +13,7 @@ WHERE "CO (ppm)" IS NULL;
  -- 3. check for duplicate rows
 SELECT Date, Location, COUNT(*) AS readings_count
 FROM raw_air_pollution_lagos
-GROUP BY Date, Location, [PM2.5 (µg/m³)], [CO (ppm)], [Temperature (°C)], [Wind Speed (km/h)] -- in square bracket cause column names has spaces
+GROUP BY Date, Location, [PM2.5 (µg/m³)], [CO (ppm)], [Temperature (°C)], [Wind Speed (km/h)] 
 HAVING COUNT(*) > 1;
 
 -- 4. Remove duplicate rows using RowID
