@@ -28,7 +28,7 @@ Key steps:
 * Fixed inconsistent casing in `Location`
 * Handled missing `CO` values
 * Removed duplicate rows
-* Confirmed expected ranges for pollutants and weather.
+* Removed Outliers: pollutant with values too extreme (too high or too low) to be true.
 
 Output file: `cleaned_air_pollution_lagos.csv`
 
