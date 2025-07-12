@@ -41,7 +41,7 @@ Questions explored:
 * Rank all locations by average pollution level
 * which locations have the worst overall pollution?
 
-See: `analysis.ipynb`
+See: `air_pollution_analysis.ipynb`
 
 ## Only SQL concepts used:
 * SELECT, WHERE, GROUP BY
